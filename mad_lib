@@ -1,0 +1,14 @@
+print "All right! Who's ready to play some Madlibs?"
+name = raw_input('Please enter your name to get started: ')
+print "Hi %s! Let's get started!" %(name)
+
+noun = raw_input("Choose a noun... ")
+adjective = raw_input("Now choose an adjective... ")
+verb = raw_input("And a verb (past-tense)... ")
+pronoun = raw_input("Great! How about a pronoun? ")
+verb_ing = raw_input("And, finally, a verb ending in -ing... ")
+
+print "Okay! Here's your story!"
+
+print "A %s was walking down the street one day. It was a(n) %s day as the %s %s to the park. %s was resplendent in the morning sun! The %s loved %s on this beautiful day!" \
+      %(noun, adjective, noun, verb, pronoun, noun, verb_ing)
